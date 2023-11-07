@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    //creates the txt file in the cpp folder
+    //creates the txt file in the folder
     ofstream myFile("mp.txt");
     myFile << "FirstName Perez\n";
     myFile << "Michael Lewis\n";
